@@ -68,31 +68,75 @@ header {
 
 #technologies {
   i {
-    font-size: 100px;
+    font-size: 115px;
   }
   .col {
     display: flex;
     align-items: center;
     justify-content: center;
+    // border-radius: 15px;
+    // width: 150px;
+    // height: 150px;
   }
   .react {
     background-color: #222222;
     color: #61dafb;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
   }
   .rails {
     background-color: #ff0000;
     color: #FFF9FB;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
   }
   .js {
     // background-color: ;
     color: #f0db4f;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
   }
   .ps {
     background-color: #222222;
     color: $primary_color;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
   }
   .node {
     background-color: #79b85e;
     color: $off_white;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+  .amazon {
+    background-color: #f9ca33;
+    color: $off_white;
+    display: flex;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -85,24 +85,63 @@ header {
     text-shadow: 2px 2px 3px #020F0F; }
 
 #technologies i {
-  font-size: 100px; }
+  font-size: 115px; }
 #technologies .col {
   display: flex;
   align-items: center;
   justify-content: center; }
 #technologies .react {
   background-color: #222222;
-  color: #61dafb; }
+  color: #61dafb;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
 #technologies .rails {
   background-color: #ff0000;
-  color: #FFF9FB; }
+  color: #FFF9FB;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
 #technologies .js {
-  color: #f0db4f; }
+  color: #f0db4f;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
 #technologies .ps {
   background-color: #222222;
-  color: #279AF1; }
+  color: #279AF1;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
 #technologies .node {
   background-color: #79b85e;
-  color: #FFF9FB; }
+  color: #FFF9FB;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
+#technologies .amazon {
+  background-color: #f9ca33;
+  color: #FFF9FB;
+  display: flex;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
