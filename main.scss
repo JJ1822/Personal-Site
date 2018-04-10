@@ -83,4 +83,16 @@ header {
     background-color: #ff0000;
     color: #FFF9FB;
   }
+  .js {
+    // background-color: ;
+    color: #f0db4f;
+  }
+  .ps {
+    background-color: #222222;
+    color: $primary_color;
+  }
+  .node {
+    background-color: #79b85e;
+    color: $off_white;
+  }
 }

@@ -96,5 +96,13 @@ header {
 #technologies .rails {
   background-color: #ff0000;
   color: #FFF9FB; }
+#technologies .js {
+  color: #f0db4f; }
+#technologies .ps {
+  background-color: #222222;
+  color: #279AF1; }
+#technologies .node {
+  background-color: #79b85e;
+  color: #FFF9FB; }
 
 /*# sourceMappingURL=style.css.map */
