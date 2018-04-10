@@ -12,11 +12,15 @@ $title_font: 'Open Sans', sans-serif;
 section {
   height:800px;
 }
+.container {
+  width: 100vw;
+  padding: 0 75px;
+}
 
 nav {
   height: 80px;
   padding: 0 50px;
-  background-color: $primary_color;
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,6 +74,20 @@ header {
   i {
     font-size: 115px;
   }
+  img {
+    // font-size: 150px;
+    border-radius: 15px;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+  }
   .col {
     display: flex;
     align-items: center;
@@ -77,6 +95,21 @@ header {
     // border-radius: 15px;
     // width: 150px;
     // height: 150px;
+  }
+
+
+  .item-box {
+    // display: flex;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: all .4s;
+    }
+
+  .item-box:hover {
+    background: #fff;
+    box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
   }
   .react {
     background-color: #222222;
@@ -87,6 +120,7 @@ header {
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     // text-align: center;
   }
   .rails {
@@ -98,26 +132,29 @@ header {
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
   .js {
-    // background-color: ;
-    color: #f0db4f;
+    background-color: #f0db4f;
+    color: $off_black;
     display: flex;
     border-radius: 15px;
     width: 150px;
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
-  .ps {
-    background-color: #222222;
-    color: $primary_color;
+  .py {
+    background-color: $primary_color;
+    color: #222222;
     display: flex;
     border-radius: 15px;
     width: 150px;
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
   .node {
     background-color: #79b85e;
@@ -128,15 +165,17 @@ header {
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
   .amazon {
-    background-color: #f9ca33;
-    color: $off_white;
+    background-color: #4f4f4f;
+    color: #f9ca33;
     display: flex;
     border-radius: 15px;
     width: 150px;
     height: 150px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
 }

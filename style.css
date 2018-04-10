@@ -44,10 +44,14 @@ table {
 section {
   height: 800px; }
 
+.container {
+  width: 100vw;
+  padding: 0 75px; }
+
 nav {
   height: 80px;
   padding: 0 50px;
-  background-color: #279AF1;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,10 +90,29 @@ header {
 
 #technologies i {
   font-size: 115px; }
+#technologies img {
+  border-radius: 15px; }
+#technologies h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0; }
+#technologies p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px; }
 #technologies .col {
   display: flex;
   align-items: center;
   justify-content: center; }
+#technologies .item-box {
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: all .4s; }
+#technologies .item-box:hover {
+  background: #fff;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15); }
 #technologies .react {
   background-color: #222222;
   color: #61dafb;
@@ -98,7 +121,8 @@ header {
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 #technologies .rails {
   background-color: #ff0000;
   color: #FFF9FB;
@@ -107,24 +131,28 @@ header {
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 #technologies .js {
-  color: #f0db4f;
+  background-color: #f0db4f;
+  color: #020F0F;
   display: flex;
   border-radius: 15px;
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
-#technologies .ps {
-  background-color: #222222;
-  color: #279AF1;
+  justify-content: center;
+  margin: 0 auto; }
+#technologies .py {
+  background-color: #279AF1;
+  color: #222222;
   display: flex;
   border-radius: 15px;
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 #technologies .node {
   background-color: #79b85e;
   color: #FFF9FB;
@@ -133,15 +161,17 @@ header {
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 #technologies .amazon {
-  background-color: #f9ca33;
-  color: #FFF9FB;
+  background-color: #4f4f4f;
+  color: #f9ca33;
   display: flex;
   border-radius: 15px;
   width: 150px;
   height: 150px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
