@@ -61,14 +61,14 @@ nav {
     font-size: 25px; }
 
 body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Roboto Slab", sans-serif; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "Open Sans", sans-serif; }
 
 header {
   height: 80vh;
   margin-top: 80px;
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
