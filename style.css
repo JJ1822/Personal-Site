@@ -42,13 +42,11 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 800px;
   padding: 80px; }
 
 .container {
   width: 100vw;
-  padding: 0 75px;
-  padding-top: 80px; }
+  padding: 80px 75px; }
 
 nav {
   height: 80px;
@@ -61,7 +59,6 @@ nav {
   top: 0;
   left: 0; }
   nav ul a:hover {
-    background-color: #279AF1;
     text-decoration: underline; }
   nav h3 {
     font-size: 25px; }
@@ -102,12 +99,17 @@ header {
   font-size: 14px;
   font-weight: 300;
   line-height: 26px; }
+#technologies .divide {
+  width: 50vw;
+  margin: 15px 0;
+  border-radius: 0; }
 #technologies .col {
   display: flex;
   align-items: center;
   justify-content: center; }
 #technologies .tech-header {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 40px; }
 #technologies .tech-header h2 {
   font-size: 42px;
   text-transform: uppercase;
@@ -115,9 +117,10 @@ header {
   color: #EA526F;
   margin: 10px; }
 #technologies .item-box {
-  border-radius: 3px;
+  border-radius: 5px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  padding-bottom: 20px;
   margin-bottom: 15px;
   transition: all .4s; }
 #technologies .item-box:hover {
@@ -183,5 +186,29 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0 auto; }
+
+#experience h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0; }
+#experience p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px; }
+#experience .divide {
+  width: 50vw;
+  margin: 15px 0;
+  border-radius: 0; }
+
+.icon-box {
+  padding: 30px 0;
+  background: linear-gradient(120deg, #EA526F 0%, #23B5D3 100%);
+  color: #FFF; }
+
+.icon-div {
+  text-align: center; }
+
+.exper-icon {
+  font-size: 50px; }
 
 /*# sourceMappingURL=style.css.map */
