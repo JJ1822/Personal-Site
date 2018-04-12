@@ -240,15 +240,18 @@ header {
   .left-text {
     text-align: right;
   }
+  .right-text {
+    text-align: left;
+  }
   .box-item {
     padding-bottom: 30px;
   }
   .image-box img {
     width: 100%;
   }
-  .longer {
-    margin-bottom: 118px !important;
-  }
+  // .longer {
+  //   margin-bottom: 118px !important;
+  // }
   .exp-icon-box {
     display: inline-block;
     float: right;
@@ -259,6 +262,10 @@ header {
     width: 60px;
     height: 60px;
   }
+  .right-box {
+    float: left;
+  }
+
   .exp-icon-box i {
     font-size: 24px;
     line-height: 60px;

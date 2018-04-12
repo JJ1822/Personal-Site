@@ -210,12 +210,12 @@ header {
   border-radius: 0; }
 #experience .left-text {
   text-align: right; }
+#experience .right-text {
+  text-align: left; }
 #experience .box-item {
   padding-bottom: 30px; }
 #experience .image-box img {
   width: 100%; }
-#experience .longer {
-  margin-bottom: 118px !important; }
 #experience .exp-icon-box {
   display: inline-block;
   float: right;
@@ -225,6 +225,8 @@ header {
   margin: 12px;
   width: 60px;
   height: 60px; }
+#experience .right-box {
+  float: left; }
 #experience .exp-icon-box i {
   font-size: 24px;
   line-height: 60px; }
