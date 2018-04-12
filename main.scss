@@ -116,9 +116,11 @@ header {
     font-size: 42px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #EA526F;
+    color: $off_black;
     margin: 10px
-
+  }
+  .tech-header h2 span {
+    color: $secondary_color;
   }
 
   .item-box {
@@ -218,14 +220,17 @@ header {
     font-size: 42px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #EA526F;
+    color: $off_black;
     margin: 10px
-
+  }
+  .exp-header h2 span {
+    color: $secondary_color;
   }
   h4 {
-    font-size: 16px;
     font-weight: 600;
-    margin: 15px 0;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
   }
   p {
     font-size: 14px;
@@ -244,8 +249,8 @@ header {
     text-align: left;
   }
   .box-item {
-    padding-bottom: 30px;
-    transition: all 3s;
+    padding: 30px 0;
+    // transition: all 3s;
   }
   .box-item:hover {
     .exp-icon-box {
@@ -269,6 +274,7 @@ header {
     border: 1px solid $secondary_color;
     align-items: center;
     margin: 12px;
+    // margin-top: 30px;
     width: 60px;
     height: 60px;
     transition: all .5s;
@@ -276,13 +282,56 @@ header {
   .right-box {
     float: left;
   }
-
+  .houston {
+    width: 84vw;
+    padding: 0 12px;
+  }
   .exp-icon-box i {
     font-size: 24px;
     line-height: 60px;
     color: $secondary_color;
     transition: all .5s;
   }
+  .no-bottom {
+    padding-bottom: 0;
+  }
+}
+#portfolio {
+  .port-header {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    // padding: 0 75px;
+  }
+
+  .port-header h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $off_black;
+    margin: 10px
+  }
+  .port-header h2 span {
+    color: $secondary_color;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .divide {
+    width: 40vw;
+    margin: 15px 0;
+    border-radius: 0;
+  }
+
 }
 
 .icon-box {
