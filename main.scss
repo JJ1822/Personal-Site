@@ -331,7 +331,18 @@ header {
     margin: 15px 0;
     border-radius: 0;
   }
-
+  .portfolio-item {
+    // height: 305px;
+    margin: 0 20px;
+    // margin-bottom: -15px;
+    padding: 15px;
+    background: #c3dade;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 .icon-box {
