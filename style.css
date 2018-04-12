@@ -213,23 +213,31 @@ header {
 #experience .right-text {
   text-align: left; }
 #experience .box-item {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  transition: all 3s; }
+#experience .box-item:hover .exp-icon-box {
+  background-color: #EA526F; }
+#experience .box-item:hover .exp-icon-box i {
+  color: #FFF9FB; }
 #experience .image-box img {
   width: 100%; }
 #experience .exp-icon-box {
   display: inline-block;
   float: right;
   border-radius: 4px;
-  border: 1px solid #4676fa;
+  border: 1px solid #EA526F;
   align-items: center;
   margin: 12px;
   width: 60px;
-  height: 60px; }
+  height: 60px;
+  transition: all .5s; }
 #experience .right-box {
   float: left; }
 #experience .exp-icon-box i {
   font-size: 24px;
-  line-height: 60px; }
+  line-height: 60px;
+  color: #EA526F;
+  transition: all .5s; }
 
 .icon-box {
   padding: 30px 0;

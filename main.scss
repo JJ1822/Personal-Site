@@ -245,6 +245,16 @@ header {
   }
   .box-item {
     padding-bottom: 30px;
+    transition: all 3s;
+  }
+  .box-item:hover {
+    .exp-icon-box {
+      background-color: $secondary_color;
+    }
+    .exp-icon-box i{
+      color: $off_white;
+    }
+
   }
   .image-box img {
     width: 100%;
@@ -256,11 +266,12 @@ header {
     display: inline-block;
     float: right;
     border-radius: 4px;
-    border: 1px solid #4676fa;
+    border: 1px solid $secondary_color;
     align-items: center;
     margin: 12px;
     width: 60px;
     height: 60px;
+    transition: all .5s;
   }
   .right-box {
     float: left;
@@ -269,6 +280,8 @@ header {
   .exp-icon-box i {
     font-size: 24px;
     line-height: 60px;
+    color: $secondary_color;
+    transition: all .5s;
   }
 }
 
