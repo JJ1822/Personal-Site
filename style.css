@@ -238,7 +238,7 @@ header {
 #experience .right-box {
   float: left; }
 #experience .houston {
-  width: 84vw;
+  width: 100%;
   padding: 0 12px; }
 #experience .exp-icon-box i {
   font-size: 24px;
@@ -266,21 +266,30 @@ header {
 #portfolio p {
   font-size: 14px;
   font-weight: 300;
-  line-height: 26px; }
+  line-height: 26px;
+  color: #403e3e; }
 #portfolio .divide {
   width: 40vw;
   margin: 15px 0;
   border-radius: 0; }
 #portfolio .portfolio-item {
-  margin: 0 20px;
-  padding: 15px;
-  background: #c3dade;
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4);
-  border-radius: 5px; }
-#portfolio img {
+  margin: 0 10px;
+  padding: 0 15px;
+  padding-top: 15px;
+  background: #23B5D3;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.44);
+  border-radius: 5px;
+  margin-bottom: 5px; }
+#portfolio .portfolio-image {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 4px;
   height: 200px; }
+#portfolio .descript-text {
+  padding: 11px;
+  color: #FFF9FB;
+  letter-spacing: 1px; }
+#portfolio .descript-text h4 {
+  margin: 0; }
 
 .icon-box {
   padding: 30px 0;

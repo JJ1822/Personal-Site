@@ -283,7 +283,7 @@ header {
     float: left;
   }
   .houston {
-    width: 84vw;
+    width: 100%;
     padding: 0 12px;
   }
   .exp-icon-box i {
@@ -325,6 +325,7 @@ header {
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
+    color: #403e3e;
   }
   .divide {
     width: 40vw;
@@ -333,17 +334,27 @@ header {
   }
   .portfolio-item {
     // height: 305px;
-    margin: 0 20px;
+    margin: 0 10px;
     // margin-bottom: -15px;
-    padding: 15px;
-    background: #c3dade;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4);
+    padding: 0 15px;
+    padding-top: 15px;
+    background: $thirdinary_color;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.44);
     border-radius: 5px;
+    margin-bottom: 5px;
   }
-  img {
+  .portfolio-image {
     width: 100%;
-    border-radius: 3px;
+    border-radius: 4px;
     height: 200px;
+  }
+  .descript-text {
+    padding: 11px;
+    color: $off_white;
+    letter-spacing: 1px;
+  }
+  .descript-text h4  {
+    margin: 0;
   }
 }
 
