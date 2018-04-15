@@ -290,11 +290,7 @@ header {
   letter-spacing: 1px; }
 #portfolio .descript-text h4 {
   margin: 0; }
-#portfolio .overlay {
-  background-color: #222;
-  color: #fff;
-  padding: 1.5em; }
-#portfolio .card {
+#portfolio .flip-card {
   position: relative;
   width: 100%;
   height: 100%;
@@ -305,11 +301,26 @@ header {
   transition: transform 1s;
   backface-visibility: hidden; }
 #portfolio .back {
-  background-color: #dd8800;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #EA526F;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; }
+#portfolio .back p {
+  color: #FFF9FB;
+  font-size: 18px;
+  padding: 25px;
+  letter-spacing: .5px;
+  text-align: center; }
+#portfolio .flip-card:hover .front {
   transform: rotateY(180deg); }
-#portfolio .card:hover .front {
-  transform: rotateY(180deg); }
-#portfolio .card:hover .back {
+#portfolio .flip-card:hover .back {
   transform: rotateY(360deg); }
 
 .icon-box {
