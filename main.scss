@@ -386,7 +386,7 @@ header {
   perspective: 30rem;
 }
 .front, .back {
-  position: absolute;
+  // position: absolute;
   width: 100%; height: 100%;
   transition: transform 1s;
   backface-visibility:hidden;

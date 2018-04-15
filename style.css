@@ -300,7 +300,6 @@ header {
   height: 100%;
   perspective: 30rem; }
 #portfolio .front, #portfolio .back {
-  position: absolute;
   width: 100%;
   height: 100%;
   transition: transform 1s;
