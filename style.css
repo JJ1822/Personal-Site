@@ -273,7 +273,7 @@ header {
   margin: 15px 0;
   border-radius: 0; }
 #portfolio .portfolio-item {
-  margin: 0 10px;
+  position: relative;
   padding: 0 15px;
   padding-top: 15px;
   background: #23B5D3;
@@ -290,6 +290,28 @@ header {
   letter-spacing: 1px; }
 #portfolio .descript-text h4 {
   margin: 0; }
+#portfolio .overlay {
+  background-color: #222;
+  color: #fff;
+  padding: 1.5em; }
+#portfolio .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 30rem; }
+#portfolio .front, #portfolio .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  backface-visibility: hidden; }
+#portfolio .back {
+  background-color: #dd8800;
+  transform: rotateY(180deg); }
+#portfolio .card:hover .front {
+  transform: rotateY(180deg); }
+#portfolio .card:hover .back {
+  transform: rotateY(360deg); }
 
 .icon-box {
   padding: 30px 0;

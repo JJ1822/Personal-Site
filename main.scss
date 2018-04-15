@@ -334,15 +334,22 @@ header {
   }
   .portfolio-item {
     // height: 305px;
-    margin: 0 10px;
+    // margin: 0 10px;
     // margin-bottom: -15px;
+    position: relative;
     padding: 0 15px;
     padding-top: 15px;
     background: $thirdinary_color;
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.44);
     border-radius: 5px;
     margin-bottom: 5px;
+    // transition: 0.6s;
+	  // transform-style: preserve-3d;
+    // -webkit-transform: perspective(500);
+    // -webkit-transform-style: preserve-3d;
+    // -webkit-transition: .5s;
   }
+
   .portfolio-image {
     width: 100%;
     border-radius: 4px;
@@ -356,6 +363,43 @@ header {
   .descript-text h4  {
     margin: 0;
   }
+  .overlay {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em;
+    // -webkit-transform: rotateX(-90deg);
+    // -webkit-transform-origin: 100% 0;
+    // -webkit-transition: .5s;
+    // position:absolute;
+		// top:0px;
+    // left: 0px;
+    // width: 100%;
+		// height: 100%;
+    // border-radius: 5px;
+		// background:#FF2400;
+		// opacity:0;
+  }
+  .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 30rem;
+}
+.front, .back {
+  position: absolute;
+  width: 100%; height: 100%;
+  transition: transform 1s;
+  backface-visibility:hidden;
+}
+.front {
+  // background-color: #66ccff;
+}
+.back {
+  background-color: #dd8800;
+  transform: rotateY(180deg);
+}
+.card:hover .front{ transform: rotateY(180deg); }
+.card:hover .back { transform: rotateY(360deg); }
 }
 
 .icon-box {
