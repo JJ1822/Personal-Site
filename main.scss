@@ -29,6 +29,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 
   ul a:hover {
     // background-color: $primary_color;
@@ -320,6 +321,7 @@ header {
     font-size: 16px;
     font-weight: 600;
     margin: 15px 0;
+    letter-spacing: 1.5px;
   }
   p {
     font-size: 14px;
