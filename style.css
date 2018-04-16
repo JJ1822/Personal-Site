@@ -349,7 +349,8 @@ header {
   padding: 10px 30px;
   margin-top: 40px;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-right: 5px; }
 
 .btn-border i {
   margin-right: 2px; }
