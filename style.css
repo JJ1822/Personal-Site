@@ -328,6 +328,40 @@ header {
 #portfolio .flip-card:hover .back {
   transform: rotateX(360deg); }
 
+.download-container h2 {
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 40px; }
+
+.download-box {
+  padding: 80px 0;
+  background: linear-gradient(120deg, #EA526F 0%, #23B5D3 100%);
+  color: #FFF; }
+
+.btn-border {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 30px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.btn-border i {
+  margin-right: 2px; }
+
+.no-margin {
+  margin-bottom: 0; }
+
+.text-align {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .icon-box {
   padding: 30px 0;
   background: linear-gradient(120deg, #EA526F 0%, #23B5D3 100%);
