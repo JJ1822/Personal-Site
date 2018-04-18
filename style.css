@@ -347,16 +347,38 @@ header {
   #contact .center-content {
     padding: 0 120px; }
   #contact .outline {
-    border: 1px solid black;
     background-color: #fff;
     padding: 30px; }
+  #contact input {
+    padding: 18px;
+    border: 1px solid #c8c6c6;
+    border-radius: 4px;
+    height: auto;
+    font-size: 14px;
+    width: 89%; }
+  #contact input::placeholder {
+    color: #7f868a; }
+  #contact textarea::placeholder {
+    color: #7f868a; }
   #contact textarea {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
     padding: 18px;
     font-size: 14px;
-    border-radius: 4px; }
+    border-radius: 4px;
+    border: 1px solid #c8c6c6; }
+  #contact button {
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #23B5D3;
+    color: #FFF9FB;
+    border: 1px solid #23B5D3;
+    transition: all .5s; }
+  #contact button:hover {
+    color: #23B5D3;
+    background-color: #FFF9FB; }
 
 .download-container h2 {
   font-size: 42px;
