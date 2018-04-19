@@ -101,7 +101,7 @@ header {
   font-weight: 300;
   line-height: 26px; }
 #technologies .divide {
-  width: 50vw;
+  width: 43vw;
   margin: 15px 0;
   border-radius: 0; }
 #technologies .col {
@@ -211,7 +211,7 @@ header {
   font-weight: 300;
   line-height: 26px; }
 #experience .divide {
-  width: 60vw;
+  width: 46vw;
   margin: 15px 0;
   border-radius: 0; }
 #experience .left-text {
@@ -271,7 +271,7 @@ header {
   line-height: 26px;
   color: #403e3e; }
 #portfolio .divide {
-  width: 40vw;
+  width: 37vw;
   margin: 15px 0;
   border-radius: 0; }
 #portfolio .portfolio-item {
@@ -341,7 +341,7 @@ header {
   #contact .contact-header h2 span {
     color: #EA526F; }
   #contact .divide {
-    width: 27vw;
+    width: 24vw;
     margin: 15px 0;
     border-radius: 0; }
   #contact .center-content {
