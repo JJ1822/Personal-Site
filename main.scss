@@ -446,7 +446,8 @@ header {
     border-radius: 4px;
     height: auto;
     font-size: 14px;
-    width: 89%;
+    box-sizing: border-box;
+    width: 100%;
 
   }
   input::placeholder {

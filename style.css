@@ -355,7 +355,8 @@ header {
     border-radius: 4px;
     height: auto;
     font-size: 14px;
-    width: 89%; }
+    box-sizing: border-box;
+    width: 100%; }
   #contact input::placeholder {
     color: #7f868a; }
   #contact textarea::placeholder {
