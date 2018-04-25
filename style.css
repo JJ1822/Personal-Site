@@ -63,8 +63,10 @@ nav {
 
 body {
   font-family: "Roboto Slab", sans-serif; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
+  body h1, body h2, body h3, body h4, body h5, body h6, body a {
     font-family: "Open Sans", sans-serif; }
+  body p {
+    font-family: "Roboto Slab", sans-serif; }
 
 header {
   height: 80vh;
