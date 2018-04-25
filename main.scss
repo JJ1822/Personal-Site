@@ -11,7 +11,7 @@ $title_font: 'Open Sans', sans-serif;
 
 section {
   // height:900px;
-  padding: 80px;
+  // padding: 80px;
 }
 .container {
   width: 100vw;
@@ -68,7 +68,8 @@ header {
   }
 
   h3 {
-    font-size: 200%;
+    font-size: 110%;
+    padding: 0 35vw;
     text-shadow: 2px 2px 3px $off_black;
   }
 }
@@ -510,6 +511,7 @@ header {
 }
 .btn-border i {
   margin-right: 2px;
+  font-weight: bold;
 }
 .no-margin {
   margin-bottom: 0;

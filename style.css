@@ -41,9 +41,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-section {
-  padding: 80px; }
-
 .container {
   width: 100vw;
   padding: 80px 75px; }
@@ -85,7 +82,8 @@ header {
     margin: 10px 0;
     text-shadow: 2px 2px 3px #020F0F; }
   header h3 {
-    font-size: 200%;
+    font-size: 110%;
+    padding: 0 35vw;
     text-shadow: 2px 2px 3px #020F0F; }
 
 #technologies i {
@@ -411,7 +409,8 @@ header {
   background-color: #23B5D3; }
 
 .btn-border i {
-  margin-right: 2px; }
+  margin-right: 2px;
+  font-weight: bold; }
 
 .no-margin {
   margin-bottom: 0; }
