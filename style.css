@@ -352,7 +352,8 @@ header {
     margin: 15px 0;
     border-radius: 0; }
   #contact .center-content {
-    padding: 80px 120px; }
+    padding: 80px 120px;
+    margin-bottom: 0; }
   #contact .outline {
     background-color: #fff;
     padding: 30px; }
@@ -438,5 +439,10 @@ header {
 
 .exper-icon {
   font-size: 50px; }
+
+footer {
+  background: #333;
+  padding: 60px 0px 30px;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
