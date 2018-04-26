@@ -450,19 +450,41 @@ footer {
     display: inline-block;
     border: 1px solid #FFF9FB;
     border-radius: 4px;
-    line-height: 50px;
-    width: 50px;
-    height: 50px;
+    line-height: 46px;
+    width: 46px;
+    height: 46px;
     text-align: center;
     margin-right: 15px;
     margin-bottom: 30px; }
+  footer .link {
+    transition: all .4s; }
+  footer .link:hover {
+    background-color: #399ce6;
+    border: 1px solid #399ce6;
+    color: #FFF9FB; }
+  footer .git {
+    transition: all .4s; }
+  footer .git:hover {
+    background-color: red;
+    border: 1px solid red; }
+    footer .git:hover .github {
+      color: #FFF9FB; }
+  footer .angel {
+    transition: all .4s; }
+  footer .angel:hover {
+    background-color: green;
+    border: 1px solid green; }
+    footer .angel:hover .angellist {
+      color: #FFF9FB; }
   footer .linkedin {
-    font-size: 20px; }
+    font-size: 18px; }
   footer .github {
-    font-size: 20px;
-    color: red; }
+    font-size: 18px;
+    color: red;
+    transition: all .4s; }
   footer .angellist {
-    font-size: 20px;
-    color: green; }
+    font-size: 18px;
+    color: green;
+    transition: all .4s; }
 
 /*# sourceMappingURL=style.css.map */

@@ -561,22 +561,52 @@ footer {
     display: inline-block;
     border: 1px solid $off_white;
     border-radius: 4px;
-    line-height: 50px;
-    width: 50px;
-    height: 50px;
+    line-height: 46px;
+    width: 46px;
+    height: 46px;
     text-align: center;
     margin-right: 15px;
     margin-bottom: 30px;
   }
+  .link {
+    transition: all .4s;
+  }
+  .link:hover {
+    background-color: #399ce6;
+    border: 1px solid #399ce6;
+    color: $off_white;
+  }
+  .git {
+    transition: all .4s;
+  }
+  .git:hover {
+    background-color: red;
+    border: 1px solid red;
+    .github {
+      color: $off_white;
+    }
+  }
+  .angel {
+    transition: all .4s;
+  }
+  .angel:hover {
+    background-color: green;
+    border: 1px solid green;
+    .angellist {
+      color: $off_white;
+    }
+  }
   .linkedin{
-    font-size: 20px;
+    font-size: 18px;
   }
   .github {
-    font-size: 20px;
+    font-size: 18px;
     color: red;
+    transition: all .4s;
   }
   .angellist {
-    font-size: 20px;
+    font-size: 18px;
     color: green;
+    transition: all .4s;
   }
 }
