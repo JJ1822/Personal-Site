@@ -444,5 +444,9 @@ footer {
   background: #333;
   padding: 60px 0px 30px;
   text-align: center; }
+  footer .github {
+    color: red; }
+  footer .angellist {
+    color: green; }
 
 /*# sourceMappingURL=style.css.map */

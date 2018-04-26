@@ -551,7 +551,14 @@ header {
 }
 
 footer {
-    background: #333;
-    padding: 60px 0px 30px;
-    text-align: center;
+  background: #333;
+  padding: 60px 0px 30px;
+  text-align: center;
+
+  .github {
+    color: red;
+  }
+  .angellist {
+    color: green;
+  }
 }
