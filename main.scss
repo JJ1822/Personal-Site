@@ -554,11 +554,29 @@ footer {
   background: #333;
   padding: 60px 0px 30px;
   text-align: center;
-
+  p {
+    color: $off_white;
+  }
+  a {
+    display: inline-block;
+    border: 1px solid $off_white;
+    border-radius: 4px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+  .linkedin{
+    font-size: 20px;
+  }
   .github {
+    font-size: 20px;
     color: red;
   }
   .angellist {
+    font-size: 20px;
     color: green;
   }
 }
