@@ -55,15 +55,20 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: 1;
+  border-bottom: 1px solid #EA526F; }
   nav ul a {
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: all .4s; }
+    transition: all .4s;
+    letter-spacing: .3px;
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif; }
   nav ul a:hover {
     background-color: #EA526F; }
   nav h3 {
-    font-size: 25px; }
+    font-size: 25px;
+    letter-spacing: 1px; }
 
 body {
   font-family: "Roboto Slab", sans-serif; }
@@ -307,7 +312,7 @@ header {
   padding: 10px 15px;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 90%;
   perspective: 30rem;
   margin-bottom: 13px; }
 #portfolio .front, #portfolio .back {
@@ -369,7 +374,17 @@ header {
     height: auto;
     font-size: 14px;
     box-sizing: border-box;
-    width: 100%; }
+    width: 100%;
+    transition: all .3s; }
+  #contact input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #23B5D3 !important; }
+  #contact textarea:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #23B5D3 !important; }
   #contact input::placeholder {
     color: #7f868a; }
   #contact textarea::placeholder {
@@ -381,7 +396,8 @@ header {
     padding: 18px;
     font-size: 14px;
     border-radius: 4px;
-    border: 1px solid #c8c6c6; }
+    border: 1px solid #c8c6c6;
+    transition: all .3s; }
   #contact .button {
     padding: 10px 30px;
     font-size: 14px;
@@ -445,6 +461,9 @@ header {
 
 .exper-icon {
   font-size: 50px; }
+
+input:active {
+  border: 1px solid #23B5D3; }
 
 footer {
   background: #333;
