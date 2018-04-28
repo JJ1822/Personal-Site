@@ -359,20 +359,20 @@
               </h2>
               <img class="divide" src="images/page-break.svg" alt="">
             </div>
-            <form class="" action="contact-form-handler.php" method="post">
+            <form class="" action="contact-form-handler.php" method="POST">
               <div class="col m6">
                 <div class="">
-                  <input type="text" placeholder="Your Name" name="" value="">
+                  <input type="text" placeholder="Your Name" name="name" value="">
                 </div>
               </div>
               <div class="col m6">
                 <div class="">
-                  <input type="text" placeholder="Your Email" name="" value="">
+                  <input type="email" placeholder="Your Email" name="email" value="">
                 </div>
               </div>
               <div class="col m12">
-                <textarea name="name" rows="12" placeholder="Your Message" cols="80"></textarea>
-                <button type="submit" name="button">Send Message</button>
+                <textarea name="message" rows="12" placeholder="Your Message" cols="80"></textarea>
+                <input value="Send" type="submit" >
               </div>
             </form>
           </div>
