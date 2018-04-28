@@ -406,7 +406,8 @@ header {
     color: #FFF9FB;
     border: 1px solid #23B5D3;
     transition: all .5s;
-    width: 250px; }
+    width: 250px;
+    margin-top: 20px; }
   #contact .button:hover {
     color: #23B5D3;
     background-color: #FFF9FB; }
