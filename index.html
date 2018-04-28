@@ -362,17 +362,17 @@
             <form name="contact" method="POST" netlify>
               <div class="col m6">
                 <div class="">
-                  <input type="text" placeholder="Your Name" name="name" value="">
+                  <input type="text" placeholder="Your Name" name="name" required data-error="Please enter your name">
                 </div>
               </div>
               <div class="col m6">
                 <div class="">
-                  <input type="text" placeholder="Your Email" name="email" value="">
+                  <input type="text" placeholder="Your Email" name="email" required data-error="Please enter your email">
                 </div>
               </div>
               <div class="col m12">
-                <textarea name="message" rows="12" placeholder="Your Message" cols="80"></textarea>
-
+                <textarea name="message" rows="12" placeholder="Your Message" cols="80" data-error="Write your message" required></textarea>
+                <div data-netlify-recaptcha></div>
                 <input class="button" value="Send Message" type="submit" >
 
               </div>
