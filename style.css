@@ -56,8 +56,12 @@ nav {
   top: 0;
   left: 0;
   z-index: 1; }
+  nav ul a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: all .4s; }
   nav ul a:hover {
-    text-decoration: underline; }
+    background-color: #EA526F; }
   nav h3 {
     font-size: 25px; }
 
@@ -83,7 +87,7 @@ header {
   text-align: center; }
   header h1 {
     font-size: 300%;
-    margin-bottom: 60vh;
+    margin-bottom: 65vh;
     text-shadow: 2px 2px 3px #1c5454; }
   header h3 {
     font-size: 110%;
@@ -378,15 +382,16 @@ header {
     font-size: 14px;
     border-radius: 4px;
     border: 1px solid #c8c6c6; }
-  #contact button {
+  #contact .button {
     padding: 10px 30px;
     font-size: 14px;
     border-radius: 4px;
     background-color: #23B5D3;
     color: #FFF9FB;
     border: 1px solid #23B5D3;
-    transition: all .5s; }
-  #contact button:hover {
+    transition: all .5s;
+    width: 250px; }
+  #contact .button:hover {
     color: #23B5D3;
     background-color: #FFF9FB; }
 
