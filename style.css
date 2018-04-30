@@ -472,7 +472,9 @@ footer {
   padding: 60px 0px 30px;
   text-align: center; }
   footer p {
-    color: #FFF9FB; }
+    color: #FFF9FB;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300; }
   footer a {
     display: inline-block;
     border: 1px solid #FFF9FB;

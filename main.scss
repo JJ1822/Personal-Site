@@ -601,6 +601,8 @@ footer {
   text-align: center;
   p {
     color: $off_white;
+    font-family: $title_font;
+    font-weight: 300;
   }
   a {
     display: inline-block;
