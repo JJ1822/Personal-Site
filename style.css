@@ -315,12 +315,18 @@ header {
   width: 100%;
   height: 90%;
   perspective: 30rem;
+  -webkit-perspective: 30rem;
+  -o-perspective: 30rem;
+  -moz-perspective: 30rem;
   margin-bottom: 13px; }
 #portfolio .front, #portfolio .back {
   width: 100%;
   height: 100%;
   transition: transform 1s;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden; }
 #portfolio .back {
   position: absolute;
   top: 10px;
@@ -328,6 +334,9 @@ header {
   background-color: #EA526F;
   border-radius: 5px;
   transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.44);
   display: flex;
   align-items: center;
