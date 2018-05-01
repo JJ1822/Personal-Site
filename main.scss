@@ -410,6 +410,9 @@ header {
     width: 100%;
     height: 90%;
     perspective: 30rem;
+    -webkit-perspective: 30rem;
+    -o-perspective: 30rem;
+    -moz-perspective: 30rem;
     margin-bottom: 13px;
 }
 .front, .back {
@@ -417,6 +420,9 @@ header {
   width: 100%; height: 100%;
   transition: transform 1s;
   backface-visibility:hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
 }
 .front {
   // background-color: #66ccff;
