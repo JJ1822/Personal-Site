@@ -43,8 +43,12 @@ table {
 
 .container {
   width: 100vw;
-  padding: 80px 75px; }
+  padding: 80px 5px; }
 
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    padding: 80px 75px !important; } }
 nav {
   height: 80px;
   padding: 0 50px;
@@ -357,6 +361,11 @@ header {
 
 #contact {
   background-color: #f2f2f2; }
+  @media only screen and (min-width: 768px) {
+    #contact {
+      /* For mobile phones: */ }
+      #contact .center-content {
+        padding: 80px 120px !important; } }
   #contact .contact-header {
     text-align: center; }
   #contact .contact-header h2 {
@@ -372,7 +381,7 @@ header {
     margin: 15px 0;
     border-radius: 0; }
   #contact .center-content {
-    padding: 80px 120px;
+    padding: 80px 20px;
     margin-bottom: 0; }
   #contact .outline {
     background-color: #fff;

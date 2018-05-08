@@ -15,8 +15,14 @@ section {
 }
 .container {
   width: 100vw;
-  padding: 80px 75px;
+  padding: 80px 5px;
   // padding-top: 80px;
+}
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+    .container {
+      padding: 80px 75px !important;
+    }
 }
 
 nav {
@@ -458,6 +464,13 @@ header {
 }
 #contact {
   background-color: #f2f2f2;
+  @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+
+      .center-content {
+        padding: 80px 120px !important;
+      }
+  }
   .contact-header {
     // display: flex;
     // align-items: center;
@@ -482,7 +495,7 @@ header {
     border-radius: 0;
   }
   .center-content {
-    padding: 80px 120px;
+    padding: 80px 20px;
     margin-bottom: 0;
   }
   .outline {
