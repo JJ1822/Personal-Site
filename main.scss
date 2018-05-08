@@ -84,7 +84,7 @@ header {
   text-align: center;
 
   img {
-    width: 100%;
+    width: 20vw;
     margin: 15px 0;
   }
   h1 {
@@ -108,9 +108,7 @@ header {
     letter-spacing: .3px;
     text-shadow: 2px 2px 3px #1c5454;
   }
-  img {
-    width: 100vw;
-  }
+
 }
 @media only screen and (min-width: 728px) {
   header {

@@ -18,6 +18,7 @@
     <title>Jay's Personal Portfolio</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="javascript/tick.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -32,7 +33,6 @@
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script>
-      <!-- this part is important! -->
       $(document).ready(function () {
         $(".button-collapse").sideNav();
       });
@@ -74,7 +74,15 @@
 
         <div class="">
           <img src="images/13116105_10100578738625497_4995303256471780277_o.jpg" alt="">
-          <h3>I’m a passionate software developer with the innovative and creative mindset of an entrepreneur. I have experience building dynamic web applications in JavaScript, Ruby on Rails, React and HTML/CSS.</h3>
+          <h1>This pen is
+            <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+          </h1>
+          <!-- <h1>HELLO,</h1>
+          <h2>I'm </h2>
+          <h3>I’m a passionate software developer with the innovative and creative mindset of an entrepreneur. I have experience building dynamic web applications in JavaScript, Ruby on Rails, React and HTML/CSS.</h3> -->
         </div>
 
     </header>
