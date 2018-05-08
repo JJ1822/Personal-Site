@@ -48,9 +48,6 @@ table {
 @media only screen and (min-width: 768px) {
   .container {
     padding: 80px 75px !important; } }
-@media only screen and (max-width: 768px) {
-  .container .row {
-    margin-right: 0; } }
 nav {
   height: 80px;
   padding: 0 50px;
@@ -85,7 +82,7 @@ body {
 
 header {
   width: 100%;
-  height: 52vh;
+  height: 60vh;
   margin-top: 80px;
   background-size: cover;
   background-color: black;
@@ -96,6 +93,7 @@ header {
   color: #FFF9FB;
   text-align: center; }
   header img {
+    width: 100%;
     margin: 15px 0; }
   header h1 {
     font-size: 300%;
@@ -109,6 +107,9 @@ header {
   header img {
     width: 100vw; }
 
+@media only screen and (min-width: 728px) {
+  header {
+    height: 70vh; } }
 #technologies i {
   font-size: 115px; }
 #technologies img {
@@ -383,11 +384,10 @@ header {
     margin: 15px 0;
     border-radius: 0; }
   #contact .center-content {
-    padding: 80px 20px;
+    padding: 80px 0px;
     margin-bottom: 0; }
   #contact .outline {
-    background-color: #fff;
-    padding: 30px; }
+    background-color: #fff; }
   #contact input {
     padding: 18px;
     border: 1px solid #c8c6c6;
