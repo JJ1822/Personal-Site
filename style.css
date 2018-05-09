@@ -58,13 +58,13 @@ table {
     margin: 0 auto;
     width: 50px;
     height: 2px;
-    background-color: #333; }
+    background-color: #fff; }
     .navToggle .icon:before, .navToggle .icon:after {
       -webkit-transition: all 0.25s ease-out;
       position: absolute;
       width: 50px;
       height: 2px;
-      background-color: #333;
+      background-color: #fff;
       content: ''; }
     .navToggle .icon:before {
       top: -20px;
@@ -73,13 +73,13 @@ table {
       top: 20px;
       left: 0; }
   .navToggle:hover .icon {
-    background-color: #555; }
+    background-color: #fff; }
     .navToggle:hover .icon:before {
       top: -25px;
-      background-color: #555; }
+      background-color: #fff; }
     .navToggle:hover .icon:after {
       top: 25px;
-      background-color: #555; }
+      background-color: #fff; }
   .navToggle.open .icon {
     -webkit-transition: all 0.4s ease-out;
     background-color: transparent;
@@ -101,7 +101,7 @@ table {
 #menu {
   z-index: 1;
   right: 0;
-  top: 110px;
+  top: 80px;
   margin: 0 auto;
   position: fixed;
   width: 200px;
@@ -112,25 +112,27 @@ table {
   -webkit-transition: all 0.5s; }
   #menu ul {
     list-style: none;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
     font-weight: 100;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: black;
+    color: white; }
   #menu li:first-child {
     margin-top: 0; }
+  #menu li:last-child {
+    margin-bottom: 0; }
   #menu li {
-    margin: 30px 0;
-    padding: 5px 0;
+    padding: 18px 0;
     cursor: pointer;
-    letter-spacing: 0.5em;
+    letter-spacing: 2.5px;
     text-decoration: none;
     -webkit-transition: all 0.25s; }
   #menu li:hover {
-    text-decoration: underline; }
+    background-color: #EA526F; }
   #menu.active {
-    height: 320px;
-    border-bottom: 1px solid black; }
+    height: 217px;
+    border-bottom: 1px solid #EA526F; }
 
 .container {
   width: 100vw;

@@ -28,13 +28,13 @@ $title_font: 'Open Sans', sans-serif;
     margin: 0 auto;
     width: 50px;
     height: 2px;
-    background-color: #333;
+    background-color: #fff;
     &:before, &:after{
       -webkit-transition: all 0.25s ease-out;
       position: absolute;
       width: 50px;
       height: 2px;
-      background-color: #333;
+      background-color: #fff;
       content:'';
     }
   &:before{
@@ -49,14 +49,14 @@ $title_font: 'Open Sans', sans-serif;
   }
   &:hover{
     .icon{
-      background-color: #555;
+      background-color: #fff;
       &:before{
         top: -25px;
-        background-color: #555;
+        background-color: #fff;
       }
       &:after{
         top: 25px;
-        background-color:#555;
+        background-color:#fff;
       }
     }
   }
@@ -88,7 +88,7 @@ $title_font: 'Open Sans', sans-serif;
   z-index: 1;
   // left: 0;
   right: 0;
-  top: 110px;
+  top: 80px;
   margin: 0 auto;
   position: fixed;
   width: 200px;
@@ -99,29 +99,35 @@ $title_font: 'Open Sans', sans-serif;
   -webkit-transition: all 0.5s;
   & ul{
     list-style: none;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 20px;
+    // padding: 20px;
+    font-family: $title_font;
+    font-size: 18px;
     font-weight: 100;
     text-transform: uppercase;
+    background-color: black;
+    color: white;
   }
   & li:first-child{
     margin-top: 0;
   }
+  & li:last-child{
+    margin-bottom: 0;
+  }
   & li{
-    margin: 30px 0;
-    padding: 5px 0;
+    // margin: 30px 0;
+    padding: 18px 0;
     cursor: pointer;
-    letter-spacing: 0.5em;
+    letter-spacing: 2.5px;
     text-decoration: none;
     -webkit-transition: all 0.25s;
   }
   & li:hover{
-    text-decoration: underline;
+    // text-decoration: underline;
+    background-color: $secondary_color;
   }
   &.active{
-    height:320px;
-    border-bottom: 1px solid black;
+    height:217px;
+    border-bottom: 1px solid $secondary_color;
   }
 }
 
