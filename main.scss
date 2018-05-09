@@ -8,6 +8,116 @@ $off_black: #020F0F;
 
 $primary_font: 'Roboto Slab', sans-serif;
 $title_font: 'Open Sans', sans-serif;
+.navToggle{
+  z-index: 111;
+  position: fixed;
+  width: 100px;
+  height: 80px;
+  // left: 0;
+  right: 0;
+  margin: 0 auto;
+  // top: 100px;
+  cursor: pointer;
+
+  .icon{
+    -webkit-transition: all 0.4s ease-out;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+    &:before, &:after{
+      -webkit-transition: all 0.25s ease-out;
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #333;
+      content:'';
+    }
+  &:before{
+    top: -20px;
+    left: 0;
+  }
+  &:after{
+    top: 20px;
+    left: 0;
+  }
+
+  }
+  &:hover{
+    .icon{
+      background-color: #555;
+      &:before{
+        top: -25px;
+        background-color: #555;
+      }
+      &:after{
+        top: 25px;
+        background-color:#555;
+      }
+    }
+  }
+  &.open{
+    .icon{
+      -webkit-transition: all 0.4s ease-out;
+      background-color: transparent;
+      -webkit-transform: rotate(180deg);
+      &:before{
+        top:0;
+        -webkit-transform: rotate(45deg);
+      }
+      &:after{
+        top:0;
+        -webkit-transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+#menu{
+  z-index: 1;
+  // left: 0;
+  right: 0;
+  top: 110px;
+  margin: 0 auto;
+  position: fixed;
+  width: 200px;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.5s;
+  & ul{
+    list-style: none;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  & li:first-child{
+    margin-top: 0;
+  }
+  & li{
+    margin: 30px 0;
+    padding: 5px 0;
+    cursor: pointer;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+    -webkit-transition: all 0.25s;
+  }
+  & li:hover{
+    text-decoration: underline;
+  }
+  &.active{
+    height:320px;
+    border-bottom: 1px solid black;
+  }
+}
+
 
 section {
   // height:900px;
@@ -36,6 +146,9 @@ nav {
   left: 0;
   z-index: 1;
   border-bottom: 1px solid $secondary_color;
+  ul {
+    display: none;
+  }
   ul a {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -72,7 +185,7 @@ body {
 header {
   width: 100%;
   height: 60vh;
-  margin-top: 80px;
+  // margin-top: 80px;
   // background-image: url('images/background.svg');
   background-size: cover;
   background-color: black;

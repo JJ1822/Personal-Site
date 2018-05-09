@@ -3,22 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async   src="https://www.googletagmanager.com/gtag/js?id=UA-118358  749-1"></script>
+    <!-- <script async   src="https://www.googletagmanager.com/gtag/js?id=UA-118358  749-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-118358749-1');
-    </script>
+    </script> -->
 
     <title>Jay's Personal Portfolio</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.polyfills.min.js"></script>
-    <script type="text/javascript" src="javascript/tick.js"></script>
+    <!-- <script type="text/javascript" src="javascript/tick.js"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -32,11 +30,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <script>
-      $(document).ready(function () {
-        $(".button-collapse").sideNav();
-      });
-    </script>
+
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
 
 
@@ -52,24 +46,30 @@
         <li><a data-scroll href="#contact">Contact</a></li>
       </ul>
     </nav> -->
-    <nav>
-    <!-- <div class="nav-wrapper"> -->
-      <!-- <a href="#!" class="brand-logo">Logo</a> -->
-      <a href="#" data-target="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-    <!-- </div> -->
-    </nav>
-    <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
+
+      <div id="container">
+        <div class="navToggle"><div class="icon"></div></div>
+          <div id="menu">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Work</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+
+    <script>
+    $(".navToggle").on("click", function(){
+      $(this).toggleClass("open");
+      $("#menu").toggleClass("active");
+    })
+
+    </script>
+  
+
     <header id="welcome">
 
         <div class="">
