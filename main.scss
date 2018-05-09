@@ -77,6 +77,7 @@ $title_font: 'Open Sans', sans-serif;
   }
 }
 #container {
+  z-index: 1;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -134,6 +135,12 @@ $title_font: 'Open Sans', sans-serif;
   &.active{
     height:217px;
     border-bottom: 1px solid $secondary_color;
+  }
+  ul a {
+    color: white;
+    font-family: $title_font;
+    width: 100%;
+    padding: 15px;
   }
 }
 
@@ -216,7 +223,8 @@ header {
   text-align: center;
 
   img {
-    width: 20vw;
+    border-radius: 20vw;
+    width: 25vw;
     margin: 15px 0;
   }
   h1 {
