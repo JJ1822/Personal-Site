@@ -97,6 +97,11 @@ table {
   position: fixed;
   background-color: black;
   border-bottom: 1px solid #EA526F; }
+  #container h3 {
+    color: white;
+    line-height: 80px;
+    font-size: 25px;
+    margin-left: 50px; }
 
 #menu {
   z-index: 1;

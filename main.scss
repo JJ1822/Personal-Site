@@ -82,6 +82,12 @@ $title_font: 'Open Sans', sans-serif;
   position: fixed;
   background-color: black;
   border-bottom: 1px solid $secondary_color;
+  h3 {
+    color: white;
+    line-height: 80px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
 }
 
 #menu{
