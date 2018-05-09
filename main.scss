@@ -76,6 +76,13 @@ $title_font: 'Open Sans', sans-serif;
     }
   }
 }
+#container {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid $secondary_color;
+}
 
 #menu{
   z-index: 1;
