@@ -217,13 +217,17 @@ header {
     margin-bottom: 20vh; }
   header h1 {
     font-size: 300%;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600; }
   header p {
+    line-height: 18px;
+    letter-spacing: .5px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300; }
   header h3 {
     font-size: 110%;
-    line-height: 30px;
+    font-weight: 600;
+    line-height: 35px;
     text-align: left;
     letter-spacing: .3px;
     font-family: "Open Sans", sans-serif; }
