@@ -438,7 +438,7 @@ header {
 #portfolio .descript-text h4 {
   margin: 0; }
 #portfolio .flip-card {
-  padding: 10px 15px;
+  padding: 10px 0;
   position: relative;
   width: 100%;
   height: 90%;
@@ -508,6 +508,7 @@ header {
     padding: 80px 0px;
     margin-bottom: 0; }
   #contact .outline {
+    padding: 30px 0;
     background-color: #fff; }
   #contact input {
     padding: 18px;
@@ -567,6 +568,7 @@ header {
   color: #FFF; }
 
 .btn-border {
+  width: 100%;
   color: #fff;
   background-color: transparent;
   border: 2px solid #fff;
@@ -592,15 +594,18 @@ header {
 .text-align {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 0 40px; }
 
 .icon-box {
   padding: 30px 0;
   background: linear-gradient(120deg, #EA526F 0%, #23B5D3 100%);
-  color: #FFF; }
+  color: #FFF;
+  margin: 10px 0; }
 
 .icon-div {
-  text-align: center; }
+  text-align: center;
+  margin: 10px 0; }
 
 .exper-icon {
   font-size: 50px; }
