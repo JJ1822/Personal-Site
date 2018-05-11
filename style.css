@@ -235,7 +235,9 @@ header {
     text-align: left; }
     header img {
       float: left;
-      width: 250px; }
+      width: 250px;
+      margin-right: 30px;
+      margin-bottom: 50px; }
     header .intro-div {
       padding: 30px 75px; } }
 #technologies i {
