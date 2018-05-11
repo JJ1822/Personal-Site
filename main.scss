@@ -759,7 +759,7 @@ header {
   color: #FFF;
 }
 .btn-border {
-    width: 100%;
+    // width: 100%;
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
@@ -784,9 +784,10 @@ header {
 }
 .text-align {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
+  // padding: 0 40px;
 
 }
 .icon-box {
@@ -876,7 +877,7 @@ footer {
 @media only screen and (min-width: 600px) {
 
     .text-align {
-      padding: 0 !important;
+      flex-direction: row !important;
 
     }
 }
