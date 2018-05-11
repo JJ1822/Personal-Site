@@ -133,7 +133,7 @@ $title_font: 'Open Sans', sans-serif;
     background-color: $secondary_color;
   }
   &.active{
-    height:217px;
+    height:269px;
     border-bottom: 1px solid $secondary_color;
   }
   ul a {
@@ -142,8 +142,13 @@ $title_font: 'Open Sans', sans-serif;
     width: 100%;
     padding: 15px;
   }
-}
 
+}
+h3 a {
+  color: white;
+  font-family: $title_font;
+
+}
 
 section {
   // height:900px;
@@ -207,28 +212,39 @@ body {
     font-family: $primary_font;
   }
 }
+.container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.intro-div {
+  text-align: left;
+  margin-right: 5px;
+}
 
 header {
   width: 100%;
-  height: 60vh;
-  // margin-top: 80px;
+  height: 70vh;
+  padding-top: 120px;
   // background-image: url('images/background.svg');
   background-size: cover;
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   color: $off_white;
   text-align: center;
 
   img {
     border-radius: 20vw;
-    width: 25vw;
-    margin: 15px 0;
+    width: 35vw;
+    margin: 0 15px;
+    float: left;
+    margin-bottom: 20vh;
   }
   h1 {
     font-size: 300%;
+    font-family: $title_font;
     // margin-bottom: 65vh;
     // margin: 9vh 0 47vh 0;
     // margin-left: 100px;
@@ -236,17 +252,22 @@ header {
     // position: absolute;
     // padding-left: 380px;
     // padding-bottom: 180px;
-    text-shadow: 2px 2px 3px #1c5454;
+    // text-shadow: 2px 2px 3px #1c5454;
+  }
+  p {
+    font-family: $title_font;
+    font-weight: 300;
   }
 
   h3 {
     font-size: 110%;
     // margin-left: 60px;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     // width: 57vw;
     letter-spacing: .3px;
-    text-shadow: 2px 2px 3px #1c5454;
+    font-family: $title_font;
+    // text-shadow: 2px 2px 3px #1c5454;
   }
 
 }
