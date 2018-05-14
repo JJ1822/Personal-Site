@@ -286,7 +286,8 @@ header {
 @media only screen and (min-width: 1000px) {
   header .intro-div {
     padding-left: 10vw;
-    padding-right: 20vw; } }
+    padding-right: 20vw;
+    padding-top: 30px; } }
 #technologies i {
   font-size: 115px; }
 #technologies img {
