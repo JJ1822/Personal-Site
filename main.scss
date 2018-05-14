@@ -279,16 +279,20 @@ header {
   a {
     display: inline-block;
     border: 1px solid $off_white;
-    border-radius: 4px;
-    line-height: 46px;
-    width: 46px;
-    height: 46px;
+    background-color: white;
+    border-radius: 90px;
+    line-height: 90px;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
     text-align: center;
-    margin-right: 15px;
-    margin-bottom: 30px;
+    margin: 20px 0;
+    margin-right: 30px;
   }
   .link {
     transition: all .4s;
+
+    // border-color: blue;
   }
   .link:hover {
     background-color: #399ce6;
@@ -297,6 +301,10 @@ header {
   }
   .git {
     transition: all .4s;
+  }
+  .github {
+    transition: all .4s;
+    color: red;
   }
   .git:hover {
     background-color: red;
@@ -307,6 +315,11 @@ header {
   }
   .angel {
     transition: all .4s;
+
+  }
+  .angellist {
+    transition: all .4s;
+    color: green;
   }
   .angel:hover {
     background-color: green;

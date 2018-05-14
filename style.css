@@ -231,13 +231,15 @@ header {
   header a {
     display: inline-block;
     border: 1px solid #FFF9FB;
-    border-radius: 4px;
-    line-height: 46px;
-    width: 46px;
-    height: 46px;
+    background-color: white;
+    border-radius: 90px;
+    line-height: 90px;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
     text-align: center;
-    margin-right: 15px;
-    margin-bottom: 30px; }
+    margin: 20px 0;
+    margin-right: 30px; }
   header .link {
     transition: all .4s; }
   header .link:hover {
@@ -246,6 +248,9 @@ header {
     color: #FFF9FB; }
   header .git {
     transition: all .4s; }
+  header .github {
+    transition: all .4s;
+    color: red; }
   header .git:hover {
     background-color: red;
     border: 1px solid red; }
@@ -253,6 +258,9 @@ header {
       color: #FFF9FB; }
   header .angel {
     transition: all .4s; }
+  header .angellist {
+    transition: all .4s;
+    color: green; }
   header .angel:hover {
     background-color: green;
     border: 1px solid green; }
