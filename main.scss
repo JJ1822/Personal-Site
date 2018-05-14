@@ -276,7 +276,45 @@ header {
     font-family: $title_font;
     // text-shadow: 2px 2px 3px #1c5454;
   }
-
+  a {
+    display: inline-block;
+    border: 1px solid $off_white;
+    border-radius: 4px;
+    line-height: 46px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+  .link {
+    transition: all .4s;
+  }
+  .link:hover {
+    background-color: #399ce6;
+    border: 1px solid #399ce6;
+    color: $off_white;
+  }
+  .git {
+    transition: all .4s;
+  }
+  .git:hover {
+    background-color: red;
+    border: 1px solid red;
+    .github {
+      color: $off_white;
+    }
+  }
+  .angel {
+    transition: all .4s;
+  }
+  .angel:hover {
+    background-color: green;
+    border: 1px solid green;
+    .angellist {
+      color: $off_white;
+    }
+  }
 }
 @media only screen and (min-width: 728px) {
   header {
@@ -293,6 +331,7 @@ header {
     }
   }
 }
+
 #technologies {
   i {
     font-size: 115px;
