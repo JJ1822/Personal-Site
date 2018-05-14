@@ -276,9 +276,12 @@ header {
     font-family: $title_font;
     // text-shadow: 2px 2px 3px #1c5454;
   }
+  .circle-links {
+    display: none;
+  }
   a {
     display: inline-block;
-    border: 1px solid $off_white;
+    // border: 1px solid $off_white;
     background-color: white;
     border-radius: 90px;
     line-height: 90px;
@@ -291,41 +294,44 @@ header {
   }
   .link {
     transition: all .4s;
-
+    color: white;
+    background-color: #399ce6;
     // border-color: blue;
   }
+
   .link:hover {
-    background-color: #399ce6;
-    border: 1px solid #399ce6;
-    color: $off_white;
+    background-color: white;
+    // border: 1px solid #399ce6;
+    color: #399ce6;
   }
   .git {
     transition: all .4s;
+    background-color: red;
   }
   .github {
     transition: all .4s;
-    color: red;
+    color: white;
   }
   .git:hover {
-    background-color: red;
-    border: 1px solid red;
+    background-color: white;
+    // border: 1px solid red;
     .github {
-      color: $off_white;
+      color: red;
     }
   }
   .angel {
     transition: all .4s;
-
+    background-color: green;
   }
   .angellist {
     transition: all .4s;
-    color: green;
+    color: white;
   }
   .angel:hover {
-    background-color: green;
-    border: 1px solid green;
+    background-color: white;
+    // border: 1px solid green;
     .angellist {
-      color: $off_white;
+      color: green;
     }
   }
 }
@@ -337,10 +343,34 @@ header {
       float: left;
       width: 250px;
       margin-right: 30px;
-      margin-bottom: 50px;
+      margin-bottom: 110px;
+    }
+    .circle-links {
+      display: block;
     }
     .intro-div {
-      padding: 30px 75px;
+      padding: 30px 30px;
+      padding-right: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  header {
+    // height: 70vh;
+    // text-align: left;
+    // img{
+    //   float: left;
+    //   width: 250px;
+    //   margin-right: 30px;
+    //   margin-bottom: 110px;
+    // }
+    // .circle-links {
+    //   display: block;
+    // }
+    .intro-div {
+      padding-left: 10vw;
+      padding-right: 20vw;
+
     }
   }
 }

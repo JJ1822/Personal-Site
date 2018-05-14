@@ -228,9 +228,10 @@ header {
     line-height: 35px;
     letter-spacing: .3px;
     font-family: "Open Sans", sans-serif; }
+  header .circle-links {
+    display: none; }
   header a {
     display: inline-block;
-    border: 1px solid #FFF9FB;
     background-color: white;
     border-radius: 90px;
     line-height: 90px;
@@ -241,31 +242,32 @@ header {
     margin: 20px 0;
     margin-right: 30px; }
   header .link {
-    transition: all .4s; }
+    transition: all .4s;
+    color: white;
+    background-color: #399ce6; }
   header .link:hover {
-    background-color: #399ce6;
-    border: 1px solid #399ce6;
-    color: #FFF9FB; }
+    background-color: white;
+    color: #399ce6; }
   header .git {
-    transition: all .4s; }
+    transition: all .4s;
+    background-color: red; }
   header .github {
     transition: all .4s;
-    color: red; }
+    color: white; }
   header .git:hover {
-    background-color: red;
-    border: 1px solid red; }
+    background-color: white; }
     header .git:hover .github {
-      color: #FFF9FB; }
+      color: red; }
   header .angel {
-    transition: all .4s; }
+    transition: all .4s;
+    background-color: green; }
   header .angellist {
     transition: all .4s;
-    color: green; }
+    color: white; }
   header .angel:hover {
-    background-color: green;
-    border: 1px solid green; }
+    background-color: white; }
     header .angel:hover .angellist {
-      color: #FFF9FB; }
+      color: green; }
 
 @media only screen and (min-width: 728px) {
   header {
@@ -275,9 +277,16 @@ header {
       float: left;
       width: 250px;
       margin-right: 30px;
-      margin-bottom: 50px; }
+      margin-bottom: 110px; }
+    header .circle-links {
+      display: block; }
     header .intro-div {
-      padding: 30px 75px; } }
+      padding: 30px 30px;
+      padding-right: 20px; } }
+@media only screen and (min-width: 1000px) {
+  header .intro-div {
+    padding-left: 10vw;
+    padding-right: 20vw; } }
 #technologies i {
   font-size: 115px; }
 #technologies img {
