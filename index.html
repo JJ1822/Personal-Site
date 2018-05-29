@@ -55,7 +55,7 @@
             </h3>
 
             <div id="menu">
-              <ul>
+              <ul class="ul">
                 <li><a data-scroll href="#welcome">Welcome</a></li>
                 <li><a data-scroll href="#technologies">Technologies</a></li>
                 <li><a data-scroll href="#experience">Experience</a></li>
@@ -71,11 +71,17 @@
         </div>
 
     <script>
-    $(".navToggle").on("click", function(){
-      $(this).toggleClass("open");
-      $("#menu").toggleClass("active");
-    })
+      $(".navToggle").on("click", function(){
+        $(this).toggleClass("open");
+        $("#menu").toggleClass("active");
+      })
+    </script>
 
+    <script>
+      $("#menu ul a").on("click", function(){
+        $(".navToggle").removeClass("open");
+        $("#menu").removeClass("active");
+      })
     </script>
 
 
